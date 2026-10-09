@@ -56,7 +56,7 @@ Install the following:
 git clone YOUR_GITHUB_REPOSITORY_URL
 cd touchgrass-ai
 
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual repository URL.
+Replace https://github.com/MedhaSunkad13/touchgrass-ai with your actual repository URL.
 
 Alternatively, download the repository and open its folder in a terminal.
 
