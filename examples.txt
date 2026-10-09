@@ -1,0 +1,65 @@
+Of course! 😊 Since your **TouchGrass AI** asks for a mood and outdoor interest, here are some good examples you can use for testing.
+
+### 😊 Moods
+
+Try:
+
+- Happy
+- Bored
+- Energetic
+- Relaxed
+- Calm
+- Sporty
+- Adventurous
+- Curious
+- Stressed
+- Tired
+- Lonely
+- Excited
+- Playful
+- Peaceful
+- Motivated
+
+### 🌿 Outdoor interests
+
+Try:
+
+- Walking
+- Running
+- Playing games
+- Photography
+- Bird watching
+- Gardening
+- Cycling
+- Hiking
+- Drawing
+- Reading
+- Exploring nature
+- Playing sports
+- Watching sunsets
+- Nature observation
+- Picnic
+- Fishing
+
+### 🧪 Some test combinations
+
+| Time | Mood | Interest |
+|---|---|---|
+| 15 minutes | Bored | Walking |
+| 30 minutes | Energetic | Playing games |
+| 45 minutes | Relaxed | Nature observation |
+| 1 hour | Adventurous | Hiking |
+| 30 minutes | Sporty | Running |
+| 20 minutes | Curious | Bird watching |
+| 1 hour | Peaceful | Drawing |
+| 45 minutes | Playful | Playing sports |
+
+For testing your current prompt, I'd particularly try:
+
+**`30 minutes → Energetic → Playing games`**
+
+and then:
+
+**`45 minutes → Tired → Walking`**
+
+Those should help us see whether Gemma changes the activity appropriately based on the **mood + interest + available time**. 🌱
