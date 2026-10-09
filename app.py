@@ -126,19 +126,21 @@ def clean_steps(steps):
 
     for step in steps:
 
-        # If Gemma returns:
-        # {"step": "Do something"}
-
+        # Handle steps returned as dictionaries
         if isinstance(step, dict):
-
             if "step" in step:
                 step = step["step"]
-
             else:
                 step = str(step)
 
-        # Convert the result to text
+        # Convert to text and remove surrounding whitespace
         step = str(step).strip()
+
+        # Remove unwanted quotation marks at the beginning and end
+        step = step.strip("\"'“”‘’")
+
+        # Remove trailing whitespace and stray punctuation
+        step = step.rstrip().rstrip("\"'“”‘’").rstrip()
 
         if step:
             cleaned_steps.append(step)
